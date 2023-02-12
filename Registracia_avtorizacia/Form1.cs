@@ -32,7 +32,7 @@ namespace Registracia_avtorizacia
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            textBox2.PasswordChar = '•';
+            
             pictureBox3.Visible = false;
             textBox1.MaxLength = 50;
             textBox2.MaxLength = 50;
@@ -75,7 +75,7 @@ namespace Registracia_avtorizacia
 
             }
             else
-                MessageBox.Show("Такого аккаунта не существует!", "Аккаунта не существует Сука туда ты лезешь чучело блять иди делом займись хватит хуйнёй страдать тебе 19 лет очнись жизьнь проходит мимо!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Такого аккаунта не существует!", "Аккаунта не существует*", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
         }
 
@@ -107,6 +107,11 @@ namespace Registracia_avtorizacia
             textBox2.UseSystemPasswordChar = true;
             pictureBox3.Visible = true;
             pictureBox4.Visible = false;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
