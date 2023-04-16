@@ -66,9 +66,9 @@ namespace Registracia_avtorizacia
             if (table.Rows.Count == 1)
             {
                 MessageBox.Show("Вы успешно вошли!", "успешно!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Form1 frm1 = new Form1();
+               Bilet bilet = new Bilet();
                 this.Hide();
-                frm1.ShowDialog();
+                bilet.ShowDialog();
                 this.Show();
 
 

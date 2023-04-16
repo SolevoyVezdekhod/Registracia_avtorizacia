@@ -96,20 +96,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(156, 175);
+            this.label2.Location = new System.Drawing.Point(163, 175);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Логин";
+            this.label2.Text = "Логин:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(156, 227);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 13);
+            this.label3.Size = new System.Drawing.Size(48, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Пароль";
+            this.label3.Text = "Пароль:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox1
@@ -152,9 +152,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(360, 215);
+            this.pictureBox3.Location = new System.Drawing.Point(357, 215);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(29, 31);
+            this.pictureBox3.Size = new System.Drawing.Size(30, 29);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
